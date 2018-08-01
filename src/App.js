@@ -39,7 +39,6 @@ class App extends Component {
         <Score score={this.state.score} />
         <Solution letterStatus={this.state.letterStatus} />
         <Letters letterStatus={this.state.letterStatus} />
-        <button onClick={this.deleteLetter}>Remove First</button>
       </div>
     );
   }
